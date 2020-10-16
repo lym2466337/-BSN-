@@ -1,0 +1,12 @@
+beginDate,endDate,appType,joinState,principal,appName,action
+,,1,,,,平台类型-fabric-sec
+,,2,,,,平台类型-fisco-sm2
+,,5,,,,平台类型-fabric-sm2
+,,6,,,,平台类型-xuper
+,,,1,,,参与服务状态-待审核
+,,,2,,,参与服务状态-审核不通过
+,,,3,,,参与服务状态-启用
+,,,4,,,参与服务状态-禁用
+,,,,测试,,发布者名称
+,,,,,fabric,服务名称
+2020-10-1,2020-10-13,,,,,时间条件
