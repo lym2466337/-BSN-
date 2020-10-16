@@ -1,0 +1,1741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="253" it="0" lt="251" ct="58" ts="1602725549315" s="true" lb="登录" rc="200" rm="" tn="setUp线程组 1-1" dt="text" de="UTF-8" by="382" sby="262" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:29 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=b0a53320-fa41-4ecd-9f19-37ce6b8600bc; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/json;charset=UTF-8
+Content-Length: 44
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;登录成功&quot;,&quot;code&quot;:0,&quot;data&quot;:{&quot;token&quot;:&quot;574a405a505c5649535f504150575b534f5f5e4e495e&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:&quot;18050388296&quot;,&quot;password&quot;:&quot;qwer123&quot;}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/login/userLogin</java.net.URL>
+</httpSample>
+<httpSample t="73" it="0" lt="72" ct="26" ts="1602725549641" s="true" lb="编辑联系人" rc="200" rm="" tn="基本资料 1-1" dt="text" de="UTF-8" by="324" sby="304" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:29 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=63b7f179-717a-473f-a163-b7bd8cbc79ae; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649535f504150575b534f5f5e4e495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 31
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;更新数据成功&quot;,&quot;code&quot;:0}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;contactIntroduce&quot;:&quot;1234567r&quot;}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/editUserContact</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="56" ct="0" ts="1602725549715" s="true" lb="获取基本资料" rc="200" rm="" tn="基本资料 1-1" dt="text" de="UTF-8" by="1055" sby="267" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:29 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=9d1c44c8-5609-42f5-8341-e4c24f46135c; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649535f504150575b534f5f5e4e495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 0
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;操作成功&quot;,&quot;code&quot;:0,&quot;data&quot;:{&quot;bsnUserConcat&quot;:{&quot;contactName&quot;:&quot;新联系人1602656676718&quot;,&quot;contactPhone&quot;:&quot;新联系电话1602656676718&quot;,&quot;contactEmail&quot;:&quot;383811723@qq.com&quot;,&quot;contactProvinceNum&quot;:&quot;130202&quot;,&quot;contactCityNum&quot;:&quot;130200&quot;,&quot;contactAreaNum&quot;:&quot;130000&quot;,&quot;contactProvinceName&quot;:&quot;河北省&quot;,&quot;contactCityName&quot;:&quot;唐山市&quot;,&quot;contactAreaName&quot;:&quot;路南区&quot;,&quot;contactDetailAddress&quot;:&quot;123133qwqeqe&quot;,&quot;contactPostalCode&quot;:&quot;1234423&quot;,&quot;contactIntroduce&quot;:&quot;1234567r&quot;},&quot;canUseBalance&quot;:-5101.62,&quot;bsnUser&quot;:{&quot;userId&quot;:7,&quot;userPhone&quot;:&quot;18050388296&quot;,&quot;userRealName&quot;:&quot;马谡98&quot;,&quot;userCompany&quot;:&quot;新公司1602656676673&quot;,&quot;userEmail&quot;:&quot;383811722@qq.com&quot;,&quot;userCertified&quot;:1,&quot;userCertifiedType&quot;:1,&quot;userAccount&quot;:627.38,&quot;userLoginTime&quot;:&quot;2020-10-15 09:32:29&quot;,&quot;idNum&quot;:&quot;440781198809277819&quot;,&quot;auditState&quot;:1}}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/getBsnUser</java.net.URL>
+</httpSample>
+<httpSample t="76" it="0" lt="76" ct="37" ts="1602725549776" s="false" lb="输入验证码" rc="200" rm="" tn="修改手机号-成功 2-1" dt="text" de="UTF-8" by="326" sby="335" sc="1" ec="1" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Value expected to match regexp &apos;验证成功&apos;, but it did not match: &apos;[&quot;短信验证失败&quot;]&apos;</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:29 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=db886895-a7fa-4e21-80bd-7554a22b72ac; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649535f504150575b534f5f5e4e495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 66
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;短信验证失败&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:&quot;18050388296&quot;,&quot;code&quot;:&quot;123456&quot;,&quot;newphone&quot;:&quot;&quot;,&quot;newcode&quot;:&quot;&quot;}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/unbindPhone</java.net.URL>
+</httpSample>
+<httpSample t="33" it="0" lt="33" ct="0" ts="1602725549862" s="false" lb="变更新手机号" rc="200" rm="" tn="修改手机号-成功 2-1" dt="text" de="UTF-8" by="326" sby="334" sc="1" ec="1" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Value expected to match regexp &apos;绑定成功&apos;, but it did not match: &apos;[&quot;短信验证失败&quot;]&apos;</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:29 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=c79ade94-320b-4dd4-ab82-0fadb91b2ea3; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649535f504150575b534f5f5e4e495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 64
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;短信验证失败&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;newPhone&quot;:&quot;18050388288&quot;,&quot;phone&quot;:&quot;18050388296&quot;,&quot;code&quot;:&quot;123456&quot;}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/bindNewPhone</java.net.URL>
+</httpSample>
+<httpSample t="61" it="0" lt="61" ct="29" ts="1602725549902" s="true" lb="旧手机验证码错误" rc="200" rm="" tn="修改手机号-失败 3-1" dt="text" de="UTF-8" by="326" sby="335" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:29 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=995a29a6-3a89-4e67-ac4c-74f657486cee; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649535f504150575b534f5f5e4e495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 66
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;短信验证失败&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:&quot;18050388296&quot;,&quot;code&quot;:&quot;323234&quot;,&quot;newphone&quot;:&quot;&quot;,&quot;newcode&quot;:&quot;&quot;}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/unbindPhone</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="0" ts="1602725549964" s="true" lb="新手机号错误-已被注册" rc="200" rm="" tn="修改手机号-失败 3-1" dt="text" de="UTF-8" by="326" sby="334" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:29 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=296dd39a-906e-447b-b25d-98c2d7d48ba9; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649535f504150575b534f5f5e4e495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 64
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;短信验证失败&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;newPhone&quot;:&quot;15555555555&quot;,&quot;phone&quot;:&quot;18050388296&quot;,&quot;code&quot;:&quot;123456&quot;}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/bindNewPhone</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="0" ts="1602725550005" s="true" lb="新手机号验证码错误" rc="200" rm="" tn="修改手机号-失败 3-1" dt="text" de="UTF-8" by="326" sby="334" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:29 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=f34dde35-bbe8-4bca-a066-14888b2b6a32; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649535f504150575b534f5f5e4e495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 64
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;短信验证失败&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;newPhone&quot;:&quot;18050388288&quot;,&quot;phone&quot;:&quot;18050388296&quot;,&quot;code&quot;:&quot;234423&quot;}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/bindNewPhone</java.net.URL>
+</httpSample>
+<httpSample t="61" it="0" lt="61" ct="32" ts="1602725550062" s="true" lb="格式错误-10位手机号" rc="200" rm="" tn="修改手机号-格式错误 4-1" dt="text" de="UTF-8" by="326" sby="331" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:29 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=bf001d76-e1f5-40aa-bfe9-818ec1b14303; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649535f504150575b534f5f5e4e495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 61
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;短信验证失败&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;newPhone&quot;:1865454542,&quot;phone&quot;:&quot;18050388296&quot;,&quot;code&quot;:&quot;123456&quot;}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/bindNewPhone</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="58" ct="29" ts="1602725550227" s="true" lb="格式错误-12位手机号" rc="200" rm="" tn="修改手机号-格式错误 4-2" dt="text" de="UTF-8" by="326" sby="329" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:30 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=c04ab5f1-74f8-402c-8628-4425de33524e; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649535f504150575b534f5f5e4e495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 59
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;短信验证失败&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;newPhone&quot;:1.99E+11,&quot;phone&quot;:&quot;18050388296&quot;,&quot;code&quot;:&quot;123456&quot;}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/bindNewPhone</java.net.URL>
+</httpSample>
+<httpSample t="69" it="0" lt="69" ct="30" ts="1602725550394" s="true" lb="格式错误-数字+字母手机号" rc="200" rm="" tn="修改手机号-格式错误 4-3" dt="text" de="UTF-8" by="320" sby="332" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:30 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=09479174-8af9-4d78-a91f-dcf0f66313ee; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649535f504150575b534f5f5e4e495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 62
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;newPhone&quot;:18454werrwe,&quot;phone&quot;:&quot;18050388296&quot;,&quot;code&quot;:&quot;123456&quot;}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/bindNewPhone</java.net.URL>
+</httpSample>
+<httpSample t="65" it="0" lt="65" ct="32" ts="1602725550561" s="true" lb="格式错误-带空格手机号" rc="200" rm="" tn="修改手机号-格式错误 4-4" dt="text" de="UTF-8" by="320" sby="333" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:30 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=62669bba-9847-427b-90e1-d6b0a93bbbee; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649535f504150575b534f5f5e4e495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 63
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;newPhone&quot;:1884 1887952,&quot;phone&quot;:&quot;18050388296&quot;,&quot;code&quot;:&quot;123456&quot;}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/bindNewPhone</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="58" ct="27" ts="1602725550726" s="true" lb="格式错误-非1开头手机号" rc="200" rm="" tn="修改手机号-格式错误 4-5" dt="text" de="UTF-8" by="326" sby="332" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:30 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=09b4585f-4999-4bd9-99d7-b8b83195b8b5; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649535f504150575b534f5f5e4e495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 62
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;短信验证失败&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;newPhone&quot;:23456789121,&quot;phone&quot;:&quot;18050388296&quot;,&quot;code&quot;:&quot;123456&quot;}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/bindNewPhone</java.net.URL>
+</httpSample>
+<httpSample t="61" it="0" lt="61" ct="29" ts="1602725550893" s="true" lb="格式错误-手机号为空" rc="200" rm="" tn="修改手机号-格式错误 4-6" dt="text" de="UTF-8" by="320" sby="325" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:30 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=a52e6bc4-219e-4333-9df9-6e49724c3127; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649535f504150575b534f5f5e4e495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 55
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;参数异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;newPhone&quot;:null,&quot;phone&quot;:&quot;18050388296&quot;,&quot;code&quot;:&quot;123456&quot;}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/bindNewPhone</java.net.URL>
+</httpSample>
+
+<httpSample t="180" it="0" lt="178" ct="44" ts="1602725552450" s="false" lb="忘记密码-成功" rc="200" rm="" tn="忘记密码-成功 1-1" dt="text" de="UTF-8" by="326" sby="295" sc="1" ec="1" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Value expected to match regexp &apos;操作成功&apos;, but it did not match: &apos;[&quot;验证码错误！&quot;]&apos;</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:32 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=0504e772-2b51-44bf-988b-df4811543aef; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/json;charset=UTF-8
+: 
+Content-Length: 64
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;验证码错误！&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;code&quot;:&quot;123456&quot;,&#xd;
+&quot;password&quot;:&quot;qwer123&quot;,&#xd;
+&quot;phone&quot;:&quot;18050388296&quot;}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userResetPassword</java.net.URL>
+</httpSample>
+<httpSample t="67" it="0" lt="67" ct="33" ts="1602725552670" s="true" lb="忘记密码-账号不存在" rc="200" rm="" tn="忘记密码-账号不存在 2-1" dt="text" de="UTF-8" by="333" sby="295" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:32 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=7d6f2484-86fe-4aab-a5f5-77c4ef228a65; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/json;charset=UTF-8
+: 
+Content-Length: 64
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;账户为空,请先注册&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;code&quot;:&quot;123456&quot;,&#xd;
+&quot;password&quot;:&quot;qwer123&quot;,&#xd;
+&quot;phone&quot;:&quot;17894987877&quot;}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userResetPassword</java.net.URL>
+</httpSample>
+<httpSample t="50" it="0" lt="50" ct="24" ts="1602725552778" s="true" lb="不合法数据-10位手机号" rc="200" rm="" tn="忘记密码-不合法数据 3-1" dt="text" de="UTF-8" by="320" sby="289" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:32 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=d3cb4be1-154f-45ec-b92c-bdeb0671f19b; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/json;charset=UTF-8
+: 
+Content-Length: 58
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;code&quot;:&quot;123456&quot;,&#xd;
+&quot;password&quot;:qwe123,&#xd;
+&quot;phone&quot;:1865454542}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userResetPassword</java.net.URL>
+</httpSample>
+<httpSample t="63" it="0" lt="63" ct="29" ts="1602725552853" s="true" lb="不合法数据-12位手机号" rc="200" rm="" tn="忘记密码-不合法数据 3-2" dt="text" de="UTF-8" by="320" sby="290" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:32 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=647c68d4-942c-4038-b55f-ab15ecd078cb; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/json;charset=UTF-8
+: 
+Content-Length: 59
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;code&quot;:&quot;123456&quot;,&#xd;
+&quot;password&quot;:qwe123,&#xd;
+&quot;phone&quot;:1.98655E+11}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userResetPassword</java.net.URL>
+</httpSample>
+<httpSample t="64" it="0" lt="64" ct="28" ts="1602725552929" s="true" lb="不合法数据-数字+字母手机号" rc="200" rm="" tn="忘记密码-不合法数据 3-3" dt="text" de="UTF-8" by="320" sby="290" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:32 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=bb416cfe-aa2d-41c6-8db9-0d262d055f16; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/json;charset=UTF-8
+: 
+Content-Length: 59
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;code&quot;:&quot;123456&quot;,&#xd;
+&quot;password&quot;:qwe123,&#xd;
+&quot;phone&quot;:18454werrwe}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userResetPassword</java.net.URL>
+</httpSample>
+<httpSample t="55" it="0" lt="54" ct="28" ts="1602725553005" s="true" lb="不合法数据-带空格手机号" rc="200" rm="" tn="忘记密码-不合法数据 3-4" dt="text" de="UTF-8" by="320" sby="291" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:32 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=4d51d1c7-8d81-478a-b20e-fac2bb6c9712; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/json;charset=UTF-8
+: 
+Content-Length: 60
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;code&quot;:&quot;123456&quot;,&#xd;
+&quot;password&quot;:qwe123,&#xd;
+&quot;phone&quot;:1884 1887952}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userResetPassword</java.net.URL>
+</httpSample>
+<httpSample t="66" it="0" lt="66" ct="42" ts="1602725553082" s="true" lb="不合法数据-非1开头手机号" rc="200" rm="" tn="忘记密码-不合法数据 3-5" dt="text" de="UTF-8" by="320" sby="290" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:32 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=d7fa4854-cef8-46c0-a557-858646927c1b; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/json;charset=UTF-8
+: 
+Content-Length: 59
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;code&quot;:&quot;123456&quot;,&#xd;
+&quot;password&quot;:qwe123,&#xd;
+&quot;phone&quot;:23456789121}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userResetPassword</java.net.URL>
+</httpSample>
+<httpSample t="52" it="0" lt="52" ct="27" ts="1602725553157" s="true" lb="不合法数据-手机号未空" rc="200" rm="" tn="忘记密码-不合法数据 3-6" dt="text" de="UTF-8" by="320" sby="283" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:33 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=763cce8c-79e0-421f-95ed-15694d20c9db; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/json;charset=UTF-8
+: 
+Content-Length: 52
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;code&quot;:&quot;123456&quot;,&#xd;
+&quot;password&quot;:qwe123,&#xd;
+&quot;phone&quot;:null}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userResetPassword</java.net.URL>
+</httpSample>
+<httpSample t="72" it="0" lt="72" ct="38" ts="1602725553235" s="true" lb="不合法数据-纯数字密码" rc="200" rm="" tn="忘记密码-不合法数据 3-7" dt="text" de="UTF-8" by="333" sby="290" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:33 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=0596b31b-2ef8-4e99-a011-df992a48f061; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/json;charset=UTF-8
+: 
+Content-Length: 59
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;账户为空,请先注册&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;code&quot;:&quot;123456&quot;,&#xd;
+&quot;password&quot;:123456,&#xd;
+&quot;phone&quot;:18600000000}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userResetPassword</java.net.URL>
+</httpSample>
+<httpSample t="71" it="0" lt="71" ct="30" ts="1602725553312" s="true" lb="不合法数据-纯字母密码" rc="200" rm="" tn="忘记密码-不合法数据 3-8" dt="text" de="UTF-8" by="320" sby="290" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:33 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=5b438c2b-3018-46b4-92e1-da2b58efa768; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/json;charset=UTF-8
+: 
+Content-Length: 59
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;code&quot;:&quot;123456&quot;,&#xd;
+&quot;password&quot;:qwerrt,&#xd;
+&quot;phone&quot;:18600000000}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userResetPassword</java.net.URL>
+</httpSample>
+<httpSample t="52" it="0" lt="52" ct="23" ts="1602725553388" s="true" lb="不合法数据-5位密码" rc="200" rm="" tn="忘记密码-不合法数据 3-9" dt="text" de="UTF-8" by="320" sby="289" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:33 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=3389f036-5557-40c2-8ea6-9181c576e3f7; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/json;charset=UTF-8
+: 
+Content-Length: 58
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;code&quot;:&quot;123456&quot;,&#xd;
+&quot;password&quot;:qwe12,&#xd;
+&quot;phone&quot;:18600000000}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userResetPassword</java.net.URL>
+</httpSample>
+<httpSample t="65" it="0" lt="65" ct="32" ts="1602725553465" s="true" lb="不合法数据-13位密码" rc="200" rm="" tn="忘记密码-不合法数据 3-10" dt="text" de="UTF-8" by="320" sby="297" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:33 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=e98444d6-5ba1-49a7-be08-33b53915b3f1; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/json;charset=UTF-8
+: 
+Content-Length: 66
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;code&quot;:&quot;123456&quot;,&#xd;
+&quot;password&quot;:qwer123456789,&#xd;
+&quot;phone&quot;:18600000000}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userResetPassword</java.net.URL>
+</httpSample>
+<httpSample t="66" it="0" lt="66" ct="34" ts="1602725553539" s="true" lb="不合法数据-密码为空" rc="200" rm="" tn="忘记密码-不合法数据 3-11" dt="text" de="UTF-8" by="320" sby="288" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:33 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=bf069db8-f83c-4aa7-9ad3-530e8b159f3e; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/json;charset=UTF-8
+: 
+Content-Length: 57
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;参数异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;code&quot;:&quot;123456&quot;,&#xd;
+&quot;password&quot;:null,&#xd;
+&quot;phone&quot;:18600000000}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userResetPassword</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="56" ct="26" ts="1602725553617" s="true" lb="不合法数据-特殊字符密码" rc="200" rm="" tn="忘记密码-不合法数据 3-12" dt="text" de="UTF-8" by="320" sby="293" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:33 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=5e301522-544b-4a27-83d6-373738b4202a; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/json;charset=UTF-8
+: 
+Content-Length: 62
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;code&quot;:&quot;123456&quot;,&#xd;
+&quot;password&quot;:!@@qwe123,&#xd;
+&quot;phone&quot;:18600000000}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userResetPassword</java.net.URL>
+</httpSample>
+<httpSample t="51" it="0" lt="51" ct="25" ts="1602725553692" s="true" lb="不合法数据-带空格密码" rc="200" rm="" tn="忘记密码-不合法数据 3-13" dt="text" de="UTF-8" by="320" sby="291" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:33 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=525cbbf7-5fe3-42c8-9f09-83b2639975df; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/json;charset=UTF-8
+: 
+Content-Length: 60
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;code&quot;:&quot;123456&quot;,&#xd;
+&quot;password&quot;:qwe 123,&#xd;
+&quot;phone&quot;:18600000000}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userResetPassword</java.net.URL>
+</httpSample>
+
+<sample t="1574" it="0" lt="1572" ct="1525" ts="1602725555212" s="true" lb="JDBC Request" rc="200" rm="OK" tn="注册-账号已存在 1-1" dt="text" de="UTF-8" by="131" sby="0" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">shared:false, driver:com.mysql.jdbc.Driver, url:jdbc:mysql://47.115.135.236:3306/sc_bsn, user:root</responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">user_phone
+13515966031
+13897019519
+15031583875
+15606094685
+15618302469
+18030181833
+18050388296
+18054803621
+18259222949
+18810362532
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">[Select Statement] SELECT user_phone FROM bsn_user
+phone
+</samplerData>
+</sample>
+<httpSample t="75" it="0" lt="73" ct="39" ts="1602725556876" s="true" lb="手机号已被注册" rc="200" rm="" tn="注册-账号已存在 1-1" dt="text" de="UTF-8" by="320" sby="278" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:36 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=a2b035de-ffe4-45fb-8efc-f78fc75bf361; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 61
+Content-Type: text/plain; charset=UTF-8
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:13515966031,&#xd;
+&quot;code&quot;:&quot;123456&quot;,&#xd;
+&quot;password&quot;:&quot;qwe123&quot;}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userRegister</java.net.URL>
+</httpSample>
+<httpSample t="61" it="0" lt="61" ct="30" ts="1602725557000" s="true" lb="数据不合法" rc="200" rm="" tn="注册-不合法数据 2-1" dt="text" de="UTF-8" by="320" sby="273" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:36 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=1338a28b-e143-4c8f-b15c-7afbc4cafc0c; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 56
+Content-Type: text/plain; charset=UTF-8
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:1865454542,&#xd;
+&quot;code&quot;:123456,&#xd;
+&quot;password&quot;:qwe123}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userRegister</java.net.URL>
+</httpSample>
+<httpSample t="62" it="0" lt="62" ct="31" ts="1602725557069" s="true" lb="数据不合法" rc="200" rm="" tn="注册-不合法数据 2-2" dt="text" de="UTF-8" by="320" sby="275" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:36 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=1c4c0dbd-2b9e-4fc0-93f8-766214f6deeb; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 58
+Content-Type: text/plain; charset=UTF-8
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:198654577550,&#xd;
+&quot;code&quot;:123456,&#xd;
+&quot;password&quot;:qwe123}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userRegister</java.net.URL>
+</httpSample>
+<httpSample t="73" it="0" lt="73" ct="34" ts="1602725557141" s="true" lb="数据不合法" rc="200" rm="" tn="注册-不合法数据 2-3" dt="text" de="UTF-8" by="320" sby="274" sc="1" ec="0" ng="2" na="2" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:37 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=80319fee-c49f-4225-8c4a-fe3e3d13670e; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 57
+Content-Type: text/plain; charset=UTF-8
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:18454werrwe,&#xd;
+&quot;code&quot;:123456,&#xd;
+&quot;password&quot;:qwe123}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userRegister</java.net.URL>
+</httpSample>
+<httpSample t="57" it="0" lt="56" ct="28" ts="1602725557211" s="true" lb="数据不合法" rc="200" rm="" tn="注册-不合法数据 2-4" dt="text" de="UTF-8" by="320" sby="275" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:37 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=af9d2599-1b4f-4d29-bad4-5576bc74eb1b; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 58
+Content-Type: text/plain; charset=UTF-8
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:1884 1887952,&#xd;
+&quot;code&quot;:123456,&#xd;
+&quot;password&quot;:qwe123}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userRegister</java.net.URL>
+</httpSample>
+<httpSample t="62" it="0" lt="62" ct="30" ts="1602725557282" s="true" lb="数据不合法" rc="200" rm="" tn="注册-不合法数据 2-5" dt="text" de="UTF-8" by="320" sby="274" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:37 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=b7cf9ad6-af2b-4f26-bee6-a1ecd6f47214; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 57
+Content-Type: text/plain; charset=UTF-8
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:23456789121,&#xd;
+&quot;code&quot;:123456,&#xd;
+&quot;password&quot;:qwe123}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userRegister</java.net.URL>
+</httpSample>
+<httpSample t="63" it="0" lt="63" ct="31" ts="1602725557353" s="true" lb="数据不合法" rc="200" rm="" tn="注册-不合法数据 2-6" dt="text" de="UTF-8" by="320" sby="267" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:37 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=d3a9e344-0dd2-436b-81c2-f87f41ac364c; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 50
+Content-Type: text/plain; charset=UTF-8
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:null,&#xd;
+&quot;code&quot;:123456,&#xd;
+&quot;password&quot;:qwe123}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userRegister</java.net.URL>
+</httpSample>
+<httpSample t="68" it="0" lt="68" ct="29" ts="1602725557423" s="true" lb="数据不合法" rc="200" rm="" tn="注册-不合法数据 2-7" dt="text" de="UTF-8" by="320" sby="274" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:37 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=09681812-5cbf-4d3e-95d6-28e25d46754a; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 57
+Content-Type: text/plain; charset=UTF-8
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:18600000000,&#xd;
+&quot;code&quot;:123456,&#xd;
+&quot;password&quot;:123456}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userRegister</java.net.URL>
+</httpSample>
+<httpSample t="54" it="0" lt="54" ct="26" ts="1602725557493" s="true" lb="数据不合法" rc="200" rm="" tn="注册-不合法数据 2-8" dt="text" de="UTF-8" by="320" sby="274" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:37 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=ba6aad35-db09-4078-b7a2-96713a8e685a; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 57
+Content-Type: text/plain; charset=UTF-8
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:18600000000,&#xd;
+&quot;code&quot;:123456,&#xd;
+&quot;password&quot;:qwerrt}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userRegister</java.net.URL>
+</httpSample>
+<httpSample t="62" it="0" lt="62" ct="27" ts="1602725557563" s="true" lb="数据不合法" rc="200" rm="" tn="注册-不合法数据 2-9" dt="text" de="UTF-8" by="320" sby="273" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:37 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=3796f61e-a46b-46a5-9486-50b3aaccf813; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 56
+Content-Type: text/plain; charset=UTF-8
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:18600000000,&#xd;
+&quot;code&quot;:123456,&#xd;
+&quot;password&quot;:qwe12}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userRegister</java.net.URL>
+</httpSample>
+<httpSample t="69" it="0" lt="69" ct="29" ts="1602725557635" s="true" lb="数据不合法" rc="200" rm="" tn="注册-不合法数据 2-10" dt="text" de="UTF-8" by="320" sby="281" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:37 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=43d79600-8d21-4549-b406-c93c9ede29d3; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 64
+Content-Type: text/plain; charset=UTF-8
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:18600000000,&#xd;
+&quot;code&quot;:123456,&#xd;
+&quot;password&quot;:qwer123456789}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userRegister</java.net.URL>
+</httpSample>
+<httpSample t="65" it="0" lt="65" ct="32" ts="1602725557706" s="true" lb="数据不合法" rc="200" rm="" tn="注册-不合法数据 2-11" dt="text" de="UTF-8" by="320" sby="272" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:37 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=51561de5-ad1d-40d0-bac1-b5f74ace60e6; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 55
+Content-Type: text/plain; charset=UTF-8
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:18600000000,&#xd;
+&quot;code&quot;:123456,&#xd;
+&quot;password&quot;:null}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userRegister</java.net.URL>
+</httpSample>
+<httpSample t="59" it="0" lt="59" ct="28" ts="1602725557776" s="true" lb="数据不合法" rc="200" rm="" tn="注册-不合法数据 2-12" dt="text" de="UTF-8" by="320" sby="277" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:37 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=9a7d84cb-1254-4346-99e6-9ca39dd70cc9; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 60
+Content-Type: text/plain; charset=UTF-8
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:18600000000,&#xd;
+&quot;code&quot;:123456,&#xd;
+&quot;password&quot;:!@@qwe123}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userRegister</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="57" ct="30" ts="1602725557846" s="true" lb="数据不合法" rc="200" rm="" tn="注册-不合法数据 2-13" dt="text" de="UTF-8" by="320" sby="275" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:37 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=56baf2ec-ed6d-492a-83ee-43a7ae171a68; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 58
+Content-Type: text/plain; charset=UTF-8
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:18600000000,&#xd;
+&quot;code&quot;:123456,&#xd;
+&quot;password&quot;:qwe 123}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userRegister</java.net.URL>
+</httpSample>
+<httpSample t="66" it="0" lt="66" ct="37" ts="1602725557917" s="true" lb="数据不合法" rc="200" rm="" tn="注册-不合法数据 2-14" dt="text" de="UTF-8" by="320" sby="273" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:37 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=bbea7435-e12d-4dae-bb7f-0dafd1aa74a1; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 56
+Content-Type: text/plain; charset=UTF-8
+Host: 47.115.135.236
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;系统异常&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;phone&quot;:1865454542,&#xd;
+&quot;code&quot;:123456,&#xd;
+&quot;password&quot;:qwe123}</queryString>
+  <java.net.URL>http://47.115.135.236/shangchain/bsnApi/login/userRegister</java.net.URL>
+</httpSample>
+
+<httpSample t="229" it="0" lt="227" ct="48" ts="1602725559564" s="true" lb="登录" rc="200" rm="" tn="setup-登录 1-1" dt="text" de="UTF-8" by="382" sby="268" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:39 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=c21c9957-e2a1-4ea6-91a3-845eb8f611c9; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/json;charset=UTF-8
+Content-Length: 50
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;登录成功&quot;,&quot;code&quot;:0,&quot;data&quot;:{&quot;token&quot;:&quot;574a405a505c5649525f504150575b534f5f5e4d495e&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;phone&quot;:&quot;18050388196&quot;,&#xd;
+	&quot;password&quot;:&quot;qwer123&quot;}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/login/userLogin</java.net.URL>
+</httpSample>
+<httpSample t="104" it="0" lt="104" ct="28" ts="1602725559871" s="true" lb="查询服务" rc="200" rm="" tn="我发布服务-详情查看-成功 1-1" dt="text" de="UTF-8" by="4794" sby="387" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:39 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=590ea4a1-39e9-402e-81f7-8b4239559ab1; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649525f504150575b534f5f5e4d495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 109
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;total&quot;:4,&quot;rows&quot;:[{&quot;searchValue&quot;:null,&quot;createBy&quot;:null,&quot;createTime&quot;:null,&quot;updateBy&quot;:null,&quot;updateTime&quot;:null,&quot;remark&quot;:null,&quot;params&quot;:{},&quot;appInfoId&quot;:11555,&quot;userId&quot;:21,&quot;userPhone&quot;:null,&quot;appCode&quot;:&quot;sc_ad6fff7b7be06acff1c63ced9f0da4ea&quot;,&quot;bsnAppCode&quot;:&quot;app0019202010121813414304896&quot;,&quot;appName&quot;:&quot;上传接口测试6609&quot;,&quot;vers&quot;:&quot;1.0.1&quot;,&quot;appType&quot;:2,&quot;appTypeName&quot;:&quot;Fisco-sm2-2.2.0&quot;,&quot;caType&quot;:2,&quot;appCreateDate&quot;:&quot;2020-10-12 10:21:00&quot;,&quot;payType&quot;:1,&quot;img&quot;:&quot;/profile/upload/bsnApi/img/2020/10/10/c7e51ece-486f-4ac6-8337-7a835d6d5a8b.jpg&quot;,&quot;introduction&quot;:&quot;反反复复&quot;,&quot;appDesc&quot;:null,&quot;principal&quot;:&quot;董卓&quot;,&quot;mobile&quot;:&quot;18888888888&quot;,&quot;email&quot;:&quot;888888@qq.com&quot;,&quot;principalAddr&quot;:null,&quot;principalDesc&quot;:null,&quot;appState&quot;:1,&quot;appStateName&quot;:&quot;待审核&quot;,&quot;failReason&quot;:null,&quot;orgList&quot;:null,&quot;flowSettlementDate&quot;:null,&quot;docList&quot;:null,&quot;chainCodeList&quot;:null,&quot;funcList&quot;:null,&quot;roleList&quot;:null,&quot;isPublic&quot;:0,&quot;appServiceType&quot;:4,&quot;appServiceTypeName&quot;:null,&quot;algorithmType&quot;:0,&quot;beginDate&quot;:null,&quot;endDate&quot;:null,&quot;userContact&quot;:null,&quot;expireDate&quot;:&quot;2020-12-12 18:05:08&quot;,&quot;createDate&quot;:&quot;2020-10-12 18:05:08&quot;,&quot;updateDate&quot;:null,&quot;joinNum&quot;:3,&quot;joinDate&quot;:null,&quot;appChannelName&quot;:null,&quot;bsnUserCode&quot;:null,&quot;jdNum&quot;:1,&quot;frameType&quot;:&quot;fisco&quot;,&quot;pageSize&quot;:0,&quot;pageIndex&quot;:0},{&quot;searchValue&quot;:null,&quot;createBy&quot;:null,&quot;createTime&quot;:null,&quot;updateBy&quot;:null,&quot;updateTime&quot;:null,&quot;remark&quot;:null,&quot;params&quot;:{},&quot;appInfoId&quot;:11540,&quot;userId&quot;:21,&quot;userPhone&quot;:null,&quot;appCode&quot;:&quot;sc_eed43ed95207149ced1c0f1f8a2c0f67&quot;,&quot;bsnAppCode&quot;:null,&quot;appName&quot;:&quot;按年服务2&quot;,&quot;vers&quot;:&quot;1.0.1&quot;,&quot;appType&quot;:1,&quot;appTypeName&quot;:&quot;Fabric-secp256r1-1.4.3&quot;,&quot;caType&quot;:1,&quot;appCreateDate&quot;:null,&quot;payType&quot;:2,&quot;img&quot;:&quot;/profile/upload/bsnApi/img/2020/10/12/a9c04e14-1de7-43f8-90bb-247593e881bf.png&quot;,&quot;introduction&quot;:&quot;驱蚊器无群无若群无若&quot;,&quot;appDesc&quot;:null,&quot;principal&quot;:&quot;&quot;,&quot;mobile&quot;:null,&quot;email&quot;:null,&quot;principalAddr&quot;:null,&quot;principalDesc&quot;:null,&quot;appState&quot;:1,&quot;appStateName&quot;:&quot;待审核&quot;,&quot;failReason&quot;:null,&quot;orgList&quot;:null,&quot;flowSettlementDate&quot;:null,&quot;docList&quot;:null,&quot;chainCodeList&quot;:null,&quot;funcList&quot;:null,&quot;roleList&quot;:null,&quot;isPublic&quot;:0,&quot;appServiceType&quot;:1,&quot;appServiceTypeName&quot;:null,&quot;algorithmType&quot;:0,&quot;beginDate&quot;:null,&quot;endDate&quot;:null,&quot;userContact&quot;:null,&quot;expireDate&quot;:&quot;2022-10-12 10:22:09&quot;,&quot;createDate&quot;:&quot;2020-10-12 10:22:09&quot;,&quot;updateDate&quot;:null,&quot;joinNum&quot;:0,&quot;joinDate&quot;:null,&quot;appChannelName&quot;:null,&quot;bsnUserCode&quot;:null,&quot;jdNum&quot;:1,&quot;frameType&quot;:&quot;fabric&quot;,&quot;pageSize&quot;:0,&quot;pageIndex&quot;:0},{&quot;searchValue&quot;:null,&quot;createBy&quot;:null,&quot;createTime&quot;:null,&quot;updateBy&quot;:null,&quot;updateTime&quot;:null,&quot;remark&quot;:null,&quot;params&quot;:{},&quot;appInfoId&quot;:11531,&quot;userId&quot;:21,&quot;userPhone&quot;:null,&quot;appCode&quot;:&quot;sc_fd92a703e837c873aca02bf1edfafcfe&quot;,&quot;bsnAppCode&quot;:null,&quot;appName&quot;:&quot;上传公钥服务&quot;,&quot;vers&quot;:&quot;1.0.1&quot;,&quot;appType&quot;:6,&quot;appTypeName&quot;:&quot;XuperChain-sm2-3.9.0&quot;,&quot;caType&quot;:2,&quot;appCreateDate&quot;:null,&quot;payType&quot;:1,&quot;img&quot;:&quot;/profile/upload/bsnApi/img/2020/10/11/a7ad8760-a53a-4a1d-b4f1-eb34034b86d1.png&quot;,&quot;introduction&quot;:&quot;问问&quot;,&quot;appDesc&quot;:null,&quot;principal&quot;:&quot;&quot;,&quot;mobile&quot;:null,&quot;email&quot;:null,&quot;principalAddr&quot;:null,&quot;principalDesc&quot;:null,&quot;appState&quot;:1,&quot;appStateName&quot;:&quot;待审核&quot;,&quot;failReason&quot;:null,&quot;orgList&quot;:null,&quot;flowSettlementDate&quot;:null,&quot;docList&quot;:null,&quot;chainCodeList&quot;:null,&quot;funcList&quot;:null,&quot;roleList&quot;:null,&quot;isPublic&quot;:0,&quot;appServiceType&quot;:2,&quot;appServiceTypeName&quot;:null,&quot;algorithmType&quot;:0,&quot;beginDate&quot;:null,&quot;endDate&quot;:null,&quot;userContact&quot;:null,&quot;expireDate&quot;:&quot;2020-12-11 20:54:32&quot;,&quot;createDate&quot;:&quot;2020-10-11 20:54:32&quot;,&quot;updateDate&quot;:null,&quot;joinNum&quot;:0,&quot;joinDate&quot;:null,&quot;appChannelName&quot;:null,&quot;bsnUserCode&quot;:null,&quot;jdNum&quot;:1,&quot;frameType&quot;:&quot;xuperchain&quot;,&quot;pageSize&quot;:0,&quot;pageIndex&quot;:0},{&quot;searchValue&quot;:null,&quot;createBy&quot;:null,&quot;createTime&quot;:null,&quot;updateBy&quot;:null,&quot;updateTime&quot;:null,&quot;remark&quot;:null,&quot;params&quot;:{},&quot;appInfoId&quot;:11507,&quot;userId&quot;:21,&quot;userPhone&quot;:null,&quot;appCode&quot;:&quot;sc_a1d438de7c606094c7a374b8da4418ad&quot;,&quot;bsnAppCode&quot;:null,&quot;appName&quot;:&quot;服务2323e-修改名称&quot;,&quot;vers&quot;:&quot;1.0.1&quot;,&quot;appType&quot;:1,&quot;appTypeName&quot;:&quot;Fabric-secp256r1-1.4.3&quot;,&quot;caType&quot;:1,&quot;appCreateDate&quot;:null,&quot;payType&quot;:2,&quot;img&quot;:&quot;/profile/upload/bsnApi/img/2020/10/12/f135157c-bced-4f3a-a185-e884ae41a1f8.png&quot;,&quot;introduction&quot;:&quot;王企鹅无群&quot;,&quot;appDesc&quot;:null,&quot;principal&quot;:&quot;&quot;,&quot;mobile&quot;:null,&quot;email&quot;:null,&quot;principalAddr&quot;:null,&quot;principalDesc&quot;:null,&quot;appState&quot;:1,&quot;appStateName&quot;:&quot;待审核&quot;,&quot;failReason&quot;:null,&quot;orgList&quot;:null,&quot;flowSettlementDate&quot;:null,&quot;docList&quot;:null,&quot;chainCodeList&quot;:null,&quot;funcList&quot;:null,&quot;roleList&quot;:null,&quot;isPublic&quot;:0,&quot;appServiceType&quot;:6,&quot;appServiceTypeName&quot;:null,&quot;algorithmType&quot;:0,&quot;beginDate&quot;:null,&quot;endDate&quot;:null,&quot;userContact&quot;:null,&quot;expireDate&quot;:&quot;2022-10-10 19:25:20&quot;,&quot;createDate&quot;:&quot;2020-10-10 19:25:20&quot;,&quot;updateDate&quot;:null,&quot;joinNum&quot;:0,&quot;joinDate&quot;:null,&quot;appChannelName&quot;:null,&quot;bsnUserCode&quot;:null,&quot;jdNum&quot;:1,&quot;frameType&quot;:&quot;fabric&quot;,&quot;pageSize&quot;:0,&quot;pageIndex&quot;:0}],&quot;code&quot;:0,&quot;msg&quot;:null}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;pageIndex&quot;: 1,&#xd;
+	&quot;pageSize&quot;: 10,&#xd;
+	&quot;appType&quot;: &quot;&quot;,&#xd;
+	&quot;appState&quot;: &quot;1&quot;,&#xd;
+	&quot;payType&quot;: &quot;&quot;,&#xd;
+	&quot;appName&quot;: &quot;&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/info/appReleaseList</java.net.URL>
+</httpSample>
+<httpSample t="63" it="0" lt="63" ct="0" ts="1602725559982" s="true" lb="我发布服务-详情查看" rc="200" rm="" tn="我发布服务-详情查看-成功 1-1" dt="text" de="UTF-8" by="1851" sby="299" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:39 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=eac98fe8-37d3-4635-a459-fd8e615fd7ed; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649525f504150575b534f5f5e4d495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 20
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;操作成功&quot;,&quot;code&quot;:0,&quot;data&quot;:{&quot;searchValue&quot;:null,&quot;createBy&quot;:null,&quot;createTime&quot;:null,&quot;updateBy&quot;:null,&quot;updateTime&quot;:null,&quot;remark&quot;:null,&quot;params&quot;:{},&quot;appInfoId&quot;:11555,&quot;userId&quot;:21,&quot;userPhone&quot;:null,&quot;appCode&quot;:&quot;sc_ad6fff7b7be06acff1c63ced9f0da4ea&quot;,&quot;bsnAppCode&quot;:&quot;app0019202010121813414304896&quot;,&quot;appName&quot;:&quot;上传接口测试6609&quot;,&quot;vers&quot;:&quot;1.0.1&quot;,&quot;appType&quot;:2,&quot;appTypeName&quot;:&quot;Fisco-sm2-2.2.0&quot;,&quot;caType&quot;:2,&quot;appCreateDate&quot;:&quot;2020-10-12 10:21:00&quot;,&quot;payType&quot;:1,&quot;img&quot;:&quot;/profile/upload/bsnApi/img/2020/10/10/c7e51ece-486f-4ac6-8337-7a835d6d5a8b.jpg&quot;,&quot;introduction&quot;:&quot;反反复复&quot;,&quot;appDesc&quot;:&quot;&lt;p&gt;驱蚊器无&lt;/p&gt;&quot;,&quot;principal&quot;:&quot;新联系人${__time(,)&quot;,&quot;mobile&quot;:&quot;新联系电话${__time(,)&quot;,&quot;email&quot;:&quot;383811723@qq.com&quot;,&quot;principalAddr&quot;:&quot;河北省唐山市路南区 123133qwqeqe 1234423&quot;,&quot;principalDesc&quot;:&quot;请确认群人情味&quot;,&quot;appState&quot;:1,&quot;appStateName&quot;:null,&quot;failReason&quot;:null,&quot;orgList&quot;:null,&quot;flowSettlementDate&quot;:null,&quot;docList&quot;:[{&quot;id&quot;:462,&quot;appInfoId&quot;:11555,&quot;docName&quot;:&quot;文档1&quot;,&quot;docType&quot;:1,&quot;docTypeLabel&quot;:&quot;服务说明&quot;,&quot;docPath&quot;:&quot;/profile/upload/bsnApi/file/2020/10/10/45e1f90b-3785-4025-bf16-4a673185cba5.docx&quot;,&quot;isValid&quot;:1,&quot;createDate&quot;:&quot;2020-10-12 20:32:41&quot;,&quot;updateDate&quot;:&quot;2020-10-12 20:32:41&quot;}],&quot;chainCodeList&quot;:null,&quot;funcList&quot;:null,&quot;roleList&quot;:null,&quot;isPublic&quot;:0,&quot;appServiceType&quot;:4,&quot;appServiceTypeName&quot;:&quot;金融服务&quot;,&quot;algorithmType&quot;:1,&quot;beginDate&quot;:null,&quot;endDate&quot;:null,&quot;userContact&quot;:null,&quot;expireDate&quot;:&quot;2020-12-12 18:05:08&quot;,&quot;createDate&quot;:null,&quot;updateDate&quot;:null,&quot;joinNum&quot;:0,&quot;joinDate&quot;:null,&quot;appChannelName&quot;:&quot;17&quot;,&quot;bsnUserCode&quot;:null,&quot;jdNum&quot;:1,&quot;frameType&quot;:&quot;fisco&quot;,&quot;pageSize&quot;:0,&quot;pageIndex&quot;:0}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;appInfoId&quot;: 11555}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/info/getAppBaseDetail</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="39" ct="0" ts="1602725560046" s="true" lb="查询服务" rc="200" rm="" tn="我发布服务-详情查看-成功 1-1" dt="text" de="UTF-8" by="328" sby="387" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:39 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=322ef7ae-56a5-4db2-8782-60990196b744; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649525f504150575b534f5f5e4d495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 109
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;total&quot;:0,&quot;rows&quot;:[],&quot;code&quot;:0,&quot;msg&quot;:null}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;pageIndex&quot;: 1,&#xd;
+	&quot;pageSize&quot;: 10,&#xd;
+	&quot;appType&quot;: &quot;&quot;,&#xd;
+	&quot;appState&quot;: &quot;2&quot;,&#xd;
+	&quot;payType&quot;: &quot;&quot;,&#xd;
+	&quot;appName&quot;: &quot;&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/info/appReleaseList</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="0" ts="1602725560086" s="false" lb="我发布服务-详情查看" rc="200" rm="" tn="我发布服务-详情查看-成功 1-1" dt="text" de="UTF-8" by="580" sby="294" sc="1" ec="1" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Value expected to match regexp &apos;操作成功&apos;, but it did not match: &apos;[&quot;运行时异常:JSON parse error: Unexpected character (&apos;}&apos; (code 125)): expected a value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (&apos;}&apos; (code 125)): expected a value\n at [Source: (PushbackInputStream); line: 1, column: 16]&quot;]&apos;</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:39 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=d7559fd0-210a-4e9d-904c-4488850e2647; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649525f504150575b534f5f5e4d495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 15
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;运行时异常:JSON parse error: Unexpected character (&apos;}&apos; (code 125)): expected a value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (&apos;}&apos; (code 125)): expected a value\n at [Source: (PushbackInputStream); line: 1, column: 16]&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;appInfoId&quot;: }</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/info/getAppBaseDetail</java.net.URL>
+</httpSample>
+<httpSample t="41" it="0" lt="41" ct="0" ts="1602725560124" s="true" lb="查询服务" rc="200" rm="" tn="我发布服务-详情查看-成功 1-1" dt="text" de="UTF-8" by="328" sby="387" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:39 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=44c60f66-b84f-41a0-93f5-80c8951e5ae5; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649525f504150575b534f5f5e4d495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 109
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;total&quot;:0,&quot;rows&quot;:[],&quot;code&quot;:0,&quot;msg&quot;:null}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;pageIndex&quot;: 1,&#xd;
+	&quot;pageSize&quot;: 10,&#xd;
+	&quot;appType&quot;: &quot;&quot;,&#xd;
+	&quot;appState&quot;: &quot;3&quot;,&#xd;
+	&quot;payType&quot;: &quot;&quot;,&#xd;
+	&quot;appName&quot;: &quot;&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/info/appReleaseList</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="39" ct="0" ts="1602725560166" s="false" lb="我发布服务-详情查看" rc="200" rm="" tn="我发布服务-详情查看-成功 1-1" dt="text" de="UTF-8" by="580" sby="294" sc="1" ec="1" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Value expected to match regexp &apos;操作成功&apos;, but it did not match: &apos;[&quot;运行时异常:JSON parse error: Unexpected character (&apos;}&apos; (code 125)): expected a value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (&apos;}&apos; (code 125)): expected a value\n at [Source: (PushbackInputStream); line: 1, column: 16]&quot;]&apos;</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:39 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=863b7514-77c4-49d4-a651-62d4253b1447; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649525f504150575b534f5f5e4d495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 15
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;运行时异常:JSON parse error: Unexpected character (&apos;}&apos; (code 125)): expected a value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (&apos;}&apos; (code 125)): expected a value\n at [Source: (PushbackInputStream); line: 1, column: 16]&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;appInfoId&quot;: }</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/info/getAppBaseDetail</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="58" ct="0" ts="1602725560206" s="true" lb="查询服务" rc="200" rm="" tn="我发布服务-详情查看-成功 1-1" dt="text" de="UTF-8" by="1473" sby="387" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:40 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=56382287-6e38-478e-87c0-3da0e50d4785; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649525f504150575b534f5f5e4d495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 109
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;total&quot;:1,&quot;rows&quot;:[{&quot;searchValue&quot;:null,&quot;createBy&quot;:null,&quot;createTime&quot;:null,&quot;updateBy&quot;:null,&quot;updateTime&quot;:null,&quot;remark&quot;:null,&quot;params&quot;:{},&quot;appInfoId&quot;:11561,&quot;userId&quot;:21,&quot;userPhone&quot;:null,&quot;appCode&quot;:&quot;sc_1d73570ddb3abfb514cb3119b8569063&quot;,&quot;bsnAppCode&quot;:&quot;app0019202010122041231626430&quot;,&quot;appName&quot;:&quot;上传接口测试6477&quot;,&quot;vers&quot;:&quot;1.0.1&quot;,&quot;appType&quot;:2,&quot;appTypeName&quot;:&quot;Fisco-sm2-2.2.0&quot;,&quot;caType&quot;:2,&quot;appCreateDate&quot;:null,&quot;payType&quot;:1,&quot;img&quot;:&quot;/profile/upload/bsnApi/img/2020/10/10/c7e51ece-486f-4ac6-8337-7a835d6d5a8b.jpg&quot;,&quot;introduction&quot;:&quot;反反复复&quot;,&quot;appDesc&quot;:null,&quot;principal&quot;:&quot;张苞&quot;,&quot;mobile&quot;:&quot;15655644854&quot;,&quot;email&quot;:&quot;383811722@qq.com&quot;,&quot;principalAddr&quot;:null,&quot;principalDesc&quot;:null,&quot;appState&quot;:4,&quot;appStateName&quot;:&quot;已发布&quot;,&quot;failReason&quot;:null,&quot;orgList&quot;:null,&quot;flowSettlementDate&quot;:null,&quot;docList&quot;:null,&quot;chainCodeList&quot;:null,&quot;funcList&quot;:null,&quot;roleList&quot;:null,&quot;isPublic&quot;:0,&quot;appServiceType&quot;:4,&quot;appServiceTypeName&quot;:null,&quot;algorithmType&quot;:0,&quot;beginDate&quot;:null,&quot;endDate&quot;:null,&quot;userContact&quot;:null,&quot;expireDate&quot;:&quot;2020-12-12 20:37:25&quot;,&quot;createDate&quot;:&quot;2020-10-12 20:37:25&quot;,&quot;updateDate&quot;:null,&quot;joinNum&quot;:0,&quot;joinDate&quot;:null,&quot;appChannelName&quot;:null,&quot;bsnUserCode&quot;:null,&quot;jdNum&quot;:1,&quot;frameType&quot;:&quot;fisco&quot;,&quot;pageSize&quot;:0,&quot;pageIndex&quot;:0}],&quot;code&quot;:0,&quot;msg&quot;:null}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;pageIndex&quot;: 1,&#xd;
+	&quot;pageSize&quot;: 10,&#xd;
+	&quot;appType&quot;: &quot;&quot;,&#xd;
+	&quot;appState&quot;: &quot;4&quot;,&#xd;
+	&quot;payType&quot;: &quot;&quot;,&#xd;
+	&quot;appName&quot;: &quot;&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/info/appReleaseList</java.net.URL>
+</httpSample>
+<httpSample t="65" it="0" lt="65" ct="0" ts="1602725560266" s="true" lb="我发布服务-详情查看" rc="200" rm="" tn="我发布服务-详情查看-成功 1-1" dt="text" de="UTF-8" by="1834" sby="299" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:40 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=a2f4ae7f-f08c-4a5b-9187-2f65643cd830; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649525f504150575b534f5f5e4d495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 20
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;操作成功&quot;,&quot;code&quot;:0,&quot;data&quot;:{&quot;searchValue&quot;:null,&quot;createBy&quot;:null,&quot;createTime&quot;:null,&quot;updateBy&quot;:null,&quot;updateTime&quot;:null,&quot;remark&quot;:null,&quot;params&quot;:{},&quot;appInfoId&quot;:11561,&quot;userId&quot;:21,&quot;userPhone&quot;:null,&quot;appCode&quot;:&quot;sc_1d73570ddb3abfb514cb3119b8569063&quot;,&quot;bsnAppCode&quot;:&quot;app0019202010122041231626430&quot;,&quot;appName&quot;:&quot;上传接口测试6477&quot;,&quot;vers&quot;:&quot;1.0.1&quot;,&quot;appType&quot;:2,&quot;appTypeName&quot;:&quot;Fisco-sm2-2.2.0&quot;,&quot;caType&quot;:2,&quot;appCreateDate&quot;:null,&quot;payType&quot;:1,&quot;img&quot;:&quot;/profile/upload/bsnApi/img/2020/10/10/c7e51ece-486f-4ac6-8337-7a835d6d5a8b.jpg&quot;,&quot;introduction&quot;:&quot;反反复复&quot;,&quot;appDesc&quot;:&quot;&lt;p&gt;驱蚊器无&lt;/p&gt;&quot;,&quot;principal&quot;:&quot;新联系人${__time(,)&quot;,&quot;mobile&quot;:&quot;新联系电话${__time(,)&quot;,&quot;email&quot;:&quot;383811723@qq.com&quot;,&quot;principalAddr&quot;:&quot;河北省唐山市路南区 123133qwqeqe 1234423&quot;,&quot;principalDesc&quot;:&quot;请确认群人情味&quot;,&quot;appState&quot;:4,&quot;appStateName&quot;:null,&quot;failReason&quot;:null,&quot;orgList&quot;:null,&quot;flowSettlementDate&quot;:null,&quot;docList&quot;:[{&quot;id&quot;:472,&quot;appInfoId&quot;:11561,&quot;docName&quot;:&quot;文档1&quot;,&quot;docType&quot;:1,&quot;docTypeLabel&quot;:&quot;服务说明&quot;,&quot;docPath&quot;:&quot;/profile/upload/bsnApi/file/2020/10/10/45e1f90b-3785-4025-bf16-4a673185cba5.docx&quot;,&quot;isValid&quot;:1,&quot;createDate&quot;:&quot;2020-10-14 11:29:31&quot;,&quot;updateDate&quot;:&quot;2020-10-14 11:29:31&quot;}],&quot;chainCodeList&quot;:null,&quot;funcList&quot;:null,&quot;roleList&quot;:null,&quot;isPublic&quot;:0,&quot;appServiceType&quot;:4,&quot;appServiceTypeName&quot;:&quot;金融服务&quot;,&quot;algorithmType&quot;:1,&quot;beginDate&quot;:null,&quot;endDate&quot;:null,&quot;userContact&quot;:null,&quot;expireDate&quot;:&quot;2020-12-12 20:37:25&quot;,&quot;createDate&quot;:null,&quot;updateDate&quot;:null,&quot;joinNum&quot;:0,&quot;joinDate&quot;:null,&quot;appChannelName&quot;:null,&quot;bsnUserCode&quot;:null,&quot;jdNum&quot;:1,&quot;frameType&quot;:&quot;fisco&quot;,&quot;pageSize&quot;:0,&quot;pageIndex&quot;:0}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;appInfoId&quot;: 11561}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/info/getAppBaseDetail</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="0" ts="1602725560332" s="true" lb="查询服务" rc="200" rm="" tn="我发布服务-详情查看-成功 1-1" dt="text" de="UTF-8" by="328" sby="387" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:40 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=c4edce01-b800-4057-9baa-ddf56de8bd1a; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649525f504150575b534f5f5e4d495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 109
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;total&quot;:0,&quot;rows&quot;:[],&quot;code&quot;:0,&quot;msg&quot;:null}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;pageIndex&quot;: 1,&#xd;
+	&quot;pageSize&quot;: 10,&#xd;
+	&quot;appType&quot;: &quot;&quot;,&#xd;
+	&quot;appState&quot;: &quot;5&quot;,&#xd;
+	&quot;payType&quot;: &quot;&quot;,&#xd;
+	&quot;appName&quot;: &quot;&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/info/appReleaseList</java.net.URL>
+</httpSample>
+<httpSample t="33" it="0" lt="33" ct="0" ts="1602725560371" s="false" lb="我发布服务-详情查看" rc="200" rm="" tn="我发布服务-详情查看-成功 1-1" dt="text" de="UTF-8" by="580" sby="294" sc="1" ec="1" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Value expected to match regexp &apos;操作成功&apos;, but it did not match: &apos;[&quot;运行时异常:JSON parse error: Unexpected character (&apos;}&apos; (code 125)): expected a value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (&apos;}&apos; (code 125)): expected a value\n at [Source: (PushbackInputStream); line: 1, column: 16]&quot;]&apos;</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:40 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=a3459dec-615c-4012-9fce-283db227022b; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649525f504150575b534f5f5e4d495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 15
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;运行时异常:JSON parse error: Unexpected character (&apos;}&apos; (code 125)): expected a value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (&apos;}&apos; (code 125)): expected a value\n at [Source: (PushbackInputStream); line: 1, column: 16]&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;appInfoId&quot;: }</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/info/getAppBaseDetail</java.net.URL>
+</httpSample>
+<httpSample t="49" it="0" lt="49" ct="0" ts="1602725560406" s="true" lb="查询服务" rc="200" rm="" tn="我发布服务-详情查看-成功 1-1" dt="text" de="UTF-8" by="328" sby="387" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:40 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=c11801e5-b29f-4fd2-858a-d0a4ff84a575; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649525f504150575b534f5f5e4d495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 109
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;total&quot;:0,&quot;rows&quot;:[],&quot;code&quot;:0,&quot;msg&quot;:null}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;pageIndex&quot;: 1,&#xd;
+	&quot;pageSize&quot;: 10,&#xd;
+	&quot;appType&quot;: &quot;&quot;,&#xd;
+	&quot;appState&quot;: &quot;6&quot;,&#xd;
+	&quot;payType&quot;: &quot;&quot;,&#xd;
+	&quot;appName&quot;: &quot;&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/info/appReleaseList</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="0" ts="1602725560457" s="false" lb="我发布服务-详情查看" rc="200" rm="" tn="我发布服务-详情查看-成功 1-1" dt="text" de="UTF-8" by="580" sby="294" sc="1" ec="1" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Value expected to match regexp &apos;操作成功&apos;, but it did not match: &apos;[&quot;运行时异常:JSON parse error: Unexpected character (&apos;}&apos; (code 125)): expected a value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (&apos;}&apos; (code 125)): expected a value\n at [Source: (PushbackInputStream); line: 1, column: 16]&quot;]&apos;</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:40 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=c1865589-575d-45e3-8067-61d2b9da1978; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649525f504150575b534f5f5e4d495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 15
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;运行时异常:JSON parse error: Unexpected character (&apos;}&apos; (code 125)): expected a value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (&apos;}&apos; (code 125)): expected a value\n at [Source: (PushbackInputStream); line: 1, column: 16]&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;appInfoId&quot;: }</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/info/getAppBaseDetail</java.net.URL>
+</httpSample>
+<httpSample t="48" it="0" lt="48" ct="0" ts="1602725560495" s="true" lb="查询服务" rc="200" rm="" tn="我发布服务-详情查看-成功 1-1" dt="text" de="UTF-8" by="328" sby="387" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:40 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=8249f68c-1e2e-434e-9c24-92f174075312; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649525f504150575b534f5f5e4d495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 109
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;total&quot;:0,&quot;rows&quot;:[],&quot;code&quot;:0,&quot;msg&quot;:null}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;pageIndex&quot;: 1,&#xd;
+	&quot;pageSize&quot;: 10,&#xd;
+	&quot;appType&quot;: &quot;&quot;,&#xd;
+	&quot;appState&quot;: &quot;7&quot;,&#xd;
+	&quot;payType&quot;: &quot;&quot;,&#xd;
+	&quot;appName&quot;: &quot;&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/info/appReleaseList</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="32" ct="0" ts="1602725560544" s="false" lb="我发布服务-详情查看" rc="200" rm="" tn="我发布服务-详情查看-成功 1-1" dt="text" de="UTF-8" by="580" sby="294" sc="1" ec="1" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Value expected to match regexp &apos;操作成功&apos;, but it did not match: &apos;[&quot;运行时异常:JSON parse error: Unexpected character (&apos;}&apos; (code 125)): expected a value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (&apos;}&apos; (code 125)): expected a value\n at [Source: (PushbackInputStream); line: 1, column: 16]&quot;]&apos;</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:40 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=4c14de10-c2e3-4db0-8cd0-ad58cbc83e09; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649525f504150575b534f5f5e4d495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 15
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;运行时异常:JSON parse error: Unexpected character (&apos;}&apos; (code 125)): expected a value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (&apos;}&apos; (code 125)): expected a value\n at [Source: (PushbackInputStream); line: 1, column: 16]&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;appInfoId&quot;: }</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/info/getAppBaseDetail</java.net.URL>
+</httpSample>
+<httpSample t="45" it="0" lt="45" ct="0" ts="1602725560577" s="true" lb="查询服务" rc="200" rm="" tn="我发布服务-详情查看-成功 1-1" dt="text" de="UTF-8" by="328" sby="387" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:40 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=1da1171e-dba2-4adc-9d60-97aa432a98c5; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649525f504150575b534f5f5e4d495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 109
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;total&quot;:0,&quot;rows&quot;:[],&quot;code&quot;:0,&quot;msg&quot;:null}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;pageIndex&quot;: 1,&#xd;
+	&quot;pageSize&quot;: 10,&#xd;
+	&quot;appType&quot;: &quot;&quot;,&#xd;
+	&quot;appState&quot;: &quot;8&quot;,&#xd;
+	&quot;payType&quot;: &quot;&quot;,&#xd;
+	&quot;appName&quot;: &quot;&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/info/appReleaseList</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="32" ct="0" ts="1602725560623" s="false" lb="我发布服务-详情查看" rc="200" rm="" tn="我发布服务-详情查看-成功 1-1" dt="text" de="UTF-8" by="580" sby="294" sc="1" ec="1" ng="1" na="1" hn="LAPTOP-B2GQ2VSF">
+  <assertionResult>
+    <name>JSON断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Value expected to match regexp &apos;操作成功&apos;, but it did not match: &apos;[&quot;运行时异常:JSON parse error: Unexpected character (&apos;}&apos; (code 125)): expected a value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (&apos;}&apos; (code 125)): expected a value\n at [Source: (PushbackInputStream); line: 1, column: 16]&quot;]&apos;</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: nginx/1.9.9
+Date: Thu, 15 Oct 2020 01:32:40 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: JSESSIONID=df7a8a1b-52d8-4efa-a04b-6969e17f68b7; Path=/shangchain; HttpOnly; SameSite=lax
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Token: 574a405a505c5649525f504150575b534f5f5e4d495e
+Content-type: application/json;charset=UTF-8
+Content-Length: 15
+Host: 120.78.132.70
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;msg&quot;:&quot;运行时异常:JSON parse error: Unexpected character (&apos;}&apos; (code 125)): expected a value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (&apos;}&apos; (code 125)): expected a value\n at [Source: (PushbackInputStream); line: 1, column: 16]&quot;,&quot;code&quot;:500}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;appInfoId&quot;: }</queryString>
+  <java.net.URL>http://120.78.132.70/shangchain/bsnApi/info/getAppBaseDetail</java.net.URL>
+</httpSample>
+
+</testResults>
